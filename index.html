@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Message</title>
+
+    <link type="text/css" rel="stylesheet" href="style/reset.css">
+    <link type="text/css" rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <header>
+        <h1>X-MAS</h1>
+        <img alt="산타 이미지" src="images/santa_img.png">
+    </header>
+
+    <div class="main_wrapper">
+        <section>
+            <h2>메세지 입력하기</h2>
+            <div class="meessage_form">
+                <div class="charactor_info">
+                    <label for="charactor" >캐릭터 선택</label>
+                    <select id="charactor">
+                        <option value="" selected disabled>메시지에 보여질 캐릭터를 골라주세요</option>
+                        <option value="santa">산타</option>
+                        <option value="rudolf">루돌프</option>
+                        <option value="tree">트리</option>
+                        <option value="present">선물</option>
+                    </select>
+                </div>
+                <label for="name" class="info">
+                    <span>이름</span>
+                    <input type="text" id="name"/>
+                </label>
+                <label for="message" class="info">
+                    <span>메시지 내용</span>
+                    <input type="text" id="message" maxlength="200"/>
+                </label>
+                <button id="register" type="button">등록하기</button>
+            </div>
+        </section>
+       
+        <section>
+            <ul id="messageList"></ul>
+        </section>
+    </div>
+
+    <script type="module" src="js/supabase.js"></script>
+</body>
+</html>
