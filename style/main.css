@@ -7,12 +7,10 @@ header img{ width: 48px; height: 48px; display: block;}
 .main_wrapper section h2{ font-size: 24px; color: #ffffff; margin-bottom: 20px; text-align: center;}
 
 .meessage_form > * { display: block; margin-bottom: 16px;}
-.meessage_form .charactor_info{ display: flex; align-items: center;}
-.meessage_form .charactor_info label{ font-size: 18px; width: 20%; color: #ffffff;}
-.meessage_form .charactor_info select{ width: 80%; padding: 12px 24px;}
-.meessage_form label.info{ display: flex; align-items: center;}
-.meessage_form label.info span{ font-size: 18px; width: 20%; color: #ffffff;}
-.meessage_form label.info input{ font-size: 18px; width: 80%; padding: 12px 24px;}
+.meessage_form .charactor_info label{ font-size: 18px; display: block; color: #ffffff; margin-bottom: 8px;}
+.meessage_form .charactor_info select{ display: block; width: 100%; padding: 12px 24px;}
+.meessage_form label.info span{ display: block; font-size: 18px; color: #ffffff; margin-bottom: 8px;}
+.meessage_form label.info input{ display: block; font-size: 18px; width: 100%; padding: 12px 24px;}
 .meessage_form label.info input#message{ height: 300px;}
 .meessage_form button{width: 100%; padding: 20px; border-radius: 12px; background-color: #ffffff; border: none; color: #2b2b2b; font-size: 20px;}
 
