@@ -19,6 +19,6 @@ section ul li{ display: flex; align-items: center; padding: 20px 16px; font-size
 section ul li:nth-of-type(3n + 1){background-color: #dad7cd;}
 section ul li:nth-of-type(2n){background-color: #a3b18a;}
 section ul li:nth-of-type(3n){background-color: #588157;}
-section ul li span:first-of-type{ width: 20%;}
+section ul li span:first-of-type{ width: 20%; text-indent: -9999px;}
 section ul li span:nth-of-type(2){ width: 30%;}
 section ul li span:last-of-type{ width: 50%;}

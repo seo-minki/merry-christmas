@@ -13,7 +13,7 @@ async function getMessageList(){
     
     $list.innerHTML = data.map((info, index) => {
         return `<li>
-                    <span>${info.charactor}</span>
+                    <span class="charactor_icon ${info.charactor}">${info.charactor}</span>
                     <span>${info.name}</span>
                     <span>${info.message}</span>
                 </li>`
